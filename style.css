@@ -1,6 +1,6 @@
 /* Basic Style */
 
-body {
+.page{
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -13,7 +13,7 @@ body {
   text-align: right;
 }
 
-.header img {
+.header #eisenhower-matrix {
   width: 100%;
 }
 
