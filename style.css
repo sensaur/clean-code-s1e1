@@ -43,7 +43,8 @@
   display: flex;
 }
 
-ul {
+#incompleted-tasks,
+#completed-tasks{
   margin: 0;
   padding: 0px;
 }
