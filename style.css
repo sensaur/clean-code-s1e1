@@ -83,7 +83,7 @@
 /* Heading */
 .main_todo-list,
 .main_todo-completed,
-label[for="new-task"] {
+.main__new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -112,12 +112,12 @@ label[for="new-task"] {
 
 /* New Task */
 
-label[for="new-task"] {
+.main__new-task {
   display: block;
   margin: 0 0 20px;
 }
 
-input #new-task {
+#new-task {
   width: 318px;
 }
 
@@ -178,15 +178,15 @@ input #new-task {
 
 /* Edit Task */
 
-ul li input[type=text] {
+.main_task-text {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-mode .main_task-text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit-mode .main_task-check {
   display: none;
 }
