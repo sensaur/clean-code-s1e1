@@ -182,11 +182,20 @@
   display: none;
 }
 
-ul li.edit-mode .main_task-text {
+.main_incompleted-task-lists li.edit-mode .main_task-text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode .main_task-check {
+.main_completed-task-lists li.edit-mode .main_task-text {
+  display: inline-block;
+  width: 224px;
+}
+
+.main_incompleted-task-lists li.edit-mode .main_task-check {
+  display: none;
+}
+
+.main_completed-task-lists li.edit-mode .main_task-check {
   display: none;
 }
