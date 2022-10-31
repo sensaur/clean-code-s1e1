@@ -138,9 +138,6 @@
 .main_incompleted-task-item--edit > *,
 .main_incompleted-tasks-item--edit-mode > *,
 .main_completed-task-item--edit > * {
-/*.main_incompleted-task-item--edit,*/
-/*.main_incompleted-tasks-item--edit-mode,*/
-/*.main_completed-task-item--edit {*/
   vertical-align: middle;
 }
 
@@ -182,20 +179,12 @@
   display: none;
 }
 
-.main_incompleted-task-lists li.edit-mode .main_task-text {
-  display: inline-block;
-  width: 224px;
-}
-
-.main_completed-task-lists li.edit-mode .main_task-text {
-  display: inline-block;
-  width: 224px;
-}
-
-.main_incompleted-task-lists li.edit-mode .main_task-check {
+.main_incompleted-tasks-list .main_completed-task-item--edit.edit-mode .main_task-check,
+.main_completed-tasks-list .main_completed-task-item--edit.edit-mode .main_task-check {
   display: none;
 }
 
-.main_completed-task-lists li.edit-mode .main_task-check {
-  display: none;
+ul li.edit-mode .main_task-text {
+  display: inline-block;
+  width: 224px;
 }
