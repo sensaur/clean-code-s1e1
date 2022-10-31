@@ -49,8 +49,12 @@
   padding: 0px;
 }
 
-li,
-h3 {
+.main_incompleted-task-item--edit,
+.main_incompleted-tasks-item--edit-mode,
+.main_incompleted-task-item--edit,
+.main_completed-tasks-item--edit-mode,
+.main_todo-list,
+.main_todo-completed {
   list-style: none;
 }
 
