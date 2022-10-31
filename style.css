@@ -175,20 +175,32 @@
 
 /* Edit Task */
 
+/*.main_incompleted-tasks-list .main_incompleted-task-item--edit.edit-mode .main_task-check,*/
+/*.main_completed-tasks-list .main_completed-task-item--edit.edit-mode .main_task-check {*/
+/*  display: none;*/
+/*}*/
+
+/*.main_incompleted-tasks-list .main_incompleted-task-item--edit.edit-mode .main_task-text,*/
+/*.main_completed-tasks-list .main_completed-task-item--edit.edit-mode .main_task-text {*/
+/*  display: inline-block;*/
+/*  width: 224px;*/
+/*}*/
+
 .main_task-text {
   display: none;
 }
 
-.main_incompleted-tasks-list .main_incompleted-task-item--edit.edit-mode .main_task-check,
-.main_completed-tasks-list .main_completed-task-item--edit.edit-mode .main_task-check {
-  display: none;
-}
-
-.main_incompleted-tasks-list .main_incompleted-task-item--edit.edit-mode .main_task-text,
-.main_completed-tasks-list .main_completed-task-item--edit.edit-mode .main_task-text {
+.main_incompleted-tasks-list li.edit-mode .main_task-text,
+.main_completed-tasks-list li.edit-mode .main_task-text {
   display: inline-block;
   width: 224px;
 }
+
+.main_incompleted-tasks-list  li.edit-mode .main_task-check,
+.main_completed-tasks-list  li.edit-mode .main_task-check {
+  display: none;
+}
+
 
 
 
